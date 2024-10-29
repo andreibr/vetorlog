@@ -7,7 +7,7 @@
 ### Como utilizar
 Basta executar o script abaixo informando os dados necessários (não recomendo consultas por periodo longs)
 ```
-Usage: main.py <ENV> <AUTHTOKEN> '<DATA_INICIAL>' '<DATA_FINAL>'
+Usage: battery_avg2datadog.py <ENV> <AUTHTOKEN> '<DATA_INICIAL>' '<DATA_FINAL>'
        ENV: tag para definição de environemnt no datadog
        AUTHTOKEN: tocken authentication api
        DATA_INICIAL: '2024-10-28 00:00:00'
